@@ -35,7 +35,7 @@ public class AccountTest {
 
 
     @Test
-    public void checkNameToEmboss() {
+    public void checkMethodNameToEmbossWorkTest() {
         Account account = new Account(name);
         boolean actual  = account.checkNameToEmboss(name);
         assertEquals("Крякря, ассерт не совпал!Что-то не так в имени!", expected, actual);
